@@ -7,15 +7,75 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		170FA5AF202ED0EC00A35458 /* DateValueFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170FA5AE202ED0EC00A35458 /* DateValueFormatter.swift */; };
+		1745DB52202F555B0027F5B4 /* historyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1745DB51202F555B0027F5B4 /* historyViewController.swift */; };
+		1745DB54202FA19D0027F5B4 /* MinutelyWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1745DB53202FA19D0027F5B4 /* MinutelyWeather.swift */; };
+		1745DB56202FA5240027F5B4 /* HourlyWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1745DB55202FA5240027F5B4 /* HourlyWeather.swift */; };
+		1745DB58202FA5430027F5B4 /* CurrentlyWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1745DB57202FA5430027F5B4 /* CurrentlyWeather.swift */; };
+		1745DB5A202FA95F0027F5B4 /* DailyWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1745DB59202FA95F0027F5B4 /* DailyWeather.swift */; };
+		1745DB5C202FD80B0027F5B4 /* HourlyWeatherWithDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1745DB5B202FD80B0027F5B4 /* HourlyWeatherWithDate.swift */; };
 		17C5FDDA202E969A000E0F0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C5FDD9202E969A000E0F0D /* AppDelegate.swift */; };
 		17C5FDDC202E969A000E0F0D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C5FDDB202E969A000E0F0D /* ViewController.swift */; };
 		17C5FDDF202E969A000E0F0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17C5FDDD202E969A000E0F0D /* Main.storyboard */; };
 		17C5FDE2202E969A000E0F0D /* Weather.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 17C5FDE0202E969A000E0F0D /* Weather.xcdatamodeld */; };
 		17C5FDE4202E969A000E0F0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17C5FDE3202E969A000E0F0D /* Assets.xcassets */; };
 		17C5FDE7202E969A000E0F0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17C5FDE5202E969A000E0F0D /* LaunchScreen.storyboard */; };
+		17C5FDF7202E96C8000E0F0D /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17C5FDF4202E96BC000E0F0D /* Charts.framework */; };
+		17C5FDF8202E96C8000E0F0D /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 17C5FDF4202E96BC000E0F0D /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		17C5FE0B202EA2EA000E0F0D /* DAYCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C5FDFE202EA2EA000E0F0D /* DAYCalendarView.m */; };
+		17C5FE0C202EA2EA000E0F0D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 17C5FE00202EA2EA000E0F0D /* Info.plist */; };
+		17C5FE0D202EA2EA000E0F0D /* DAYComponentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C5FE03202EA2EA000E0F0D /* DAYComponentView.m */; };
+		17C5FE0E202EA2EA000E0F0D /* DAYIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C5FE05202EA2EA000E0F0D /* DAYIndicatorView.m */; };
+		17C5FE0F202EA2EA000E0F0D /* DAYNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C5FE07202EA2EA000E0F0D /* DAYNavigationBar.m */; };
+		17C5FE10202EA2EA000E0F0D /* DAYUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C5FE09202EA2EA000E0F0D /* DAYUtils.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		17C5FDF3202E96BC000E0F0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17C5FDEE202E96BC000E0F0D /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 65AD9E95D9ED4DC0BD73A743;
+			remoteInfo = Charts;
+		};
+		17C5FDF5202E96BC000E0F0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17C5FDEE202E96BC000E0F0D /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1CBBC58C6CE1EBEE9852CE41;
+			remoteInfo = ChartsTests;
+		};
+		17C5FDF9202E96C8000E0F0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17C5FDEE202E96BC000E0F0D /* Charts.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = A58A4ED274A941CA248EA921;
+			remoteInfo = Charts;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		17C5FDFB202E96C8000E0F0D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				17C5FDF8202E96C8000E0F0D /* Charts.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		170FA5AE202ED0EC00A35458 /* DateValueFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateValueFormatter.swift; sourceTree = "<group>"; };
+		1745DB51202F555B0027F5B4 /* historyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = historyViewController.swift; sourceTree = "<group>"; };
+		1745DB53202FA19D0027F5B4 /* MinutelyWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinutelyWeather.swift; sourceTree = "<group>"; };
+		1745DB55202FA5240027F5B4 /* HourlyWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourlyWeather.swift; sourceTree = "<group>"; };
+		1745DB57202FA5430027F5B4 /* CurrentlyWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentlyWeather.swift; sourceTree = "<group>"; };
+		1745DB59202FA95F0027F5B4 /* DailyWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyWeather.swift; sourceTree = "<group>"; };
+		1745DB5B202FD80B0027F5B4 /* HourlyWeatherWithDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourlyWeatherWithDate.swift; sourceTree = "<group>"; };
 		17C5FDD6202E969A000E0F0D /* Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17C5FDD9202E969A000E0F0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17C5FDDB202E969A000E0F0D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +84,20 @@
 		17C5FDE3202E969A000E0F0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17C5FDE6202E969A000E0F0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		17C5FDE8202E969A000E0F0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17C5FDEE202E96BC000E0F0D /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = "../../../Downloads/Charts-master/Charts.xcodeproj"; sourceTree = "<group>"; };
+		17C5FDFD202EA2EA000E0F0D /* DAYCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAYCalendarView.h; sourceTree = "<group>"; };
+		17C5FDFE202EA2EA000E0F0D /* DAYCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAYCalendarView.m; sourceTree = "<group>"; };
+		17C5FDFF202EA2EA000E0F0D /* Daysquare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Daysquare.h; sourceTree = "<group>"; };
+		17C5FE00202EA2EA000E0F0D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17C5FE02202EA2EA000E0F0D /* DAYComponentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAYComponentView.h; sourceTree = "<group>"; };
+		17C5FE03202EA2EA000E0F0D /* DAYComponentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAYComponentView.m; sourceTree = "<group>"; };
+		17C5FE04202EA2EA000E0F0D /* DAYIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAYIndicatorView.h; sourceTree = "<group>"; };
+		17C5FE05202EA2EA000E0F0D /* DAYIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAYIndicatorView.m; sourceTree = "<group>"; };
+		17C5FE06202EA2EA000E0F0D /* DAYNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAYNavigationBar.h; sourceTree = "<group>"; };
+		17C5FE07202EA2EA000E0F0D /* DAYNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAYNavigationBar.m; sourceTree = "<group>"; };
+		17C5FE08202EA2EA000E0F0D /* DAYUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAYUtils.h; sourceTree = "<group>"; };
+		17C5FE09202EA2EA000E0F0D /* DAYUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAYUtils.m; sourceTree = "<group>"; };
+		17C5FE0A202EA2EA000E0F0D /* Lib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lib.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17C5FDF7202E96C8000E0F0D /* Charts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +117,8 @@
 			children = (
 				17C5FDD8202E969A000E0F0D /* Weather */,
 				17C5FDD7202E969A000E0F0D /* Products */,
+				17C5FDFC202EA2EA000E0F0D /* Lib */,
+				17C5FDEE202E96BC000E0F0D /* Charts.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +135,58 @@
 			children = (
 				17C5FDD9202E969A000E0F0D /* AppDelegate.swift */,
 				17C5FDDB202E969A000E0F0D /* ViewController.swift */,
+				1745DB51202F555B0027F5B4 /* historyViewController.swift */,
+				170FA5AE202ED0EC00A35458 /* DateValueFormatter.swift */,
 				17C5FDDD202E969A000E0F0D /* Main.storyboard */,
+				1745DB53202FA19D0027F5B4 /* MinutelyWeather.swift */,
+				1745DB59202FA95F0027F5B4 /* DailyWeather.swift */,
+				1745DB55202FA5240027F5B4 /* HourlyWeather.swift */,
+				1745DB5B202FD80B0027F5B4 /* HourlyWeatherWithDate.swift */,
+				1745DB57202FA5430027F5B4 /* CurrentlyWeather.swift */,
 				17C5FDE3202E969A000E0F0D /* Assets.xcassets */,
 				17C5FDE5202E969A000E0F0D /* LaunchScreen.storyboard */,
 				17C5FDE8202E969A000E0F0D /* Info.plist */,
 				17C5FDE0202E969A000E0F0D /* Weather.xcdatamodeld */,
 			);
 			path = Weather;
+			sourceTree = "<group>";
+		};
+		17C5FDEF202E96BC000E0F0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17C5FDF4202E96BC000E0F0D /* Charts.framework */,
+				17C5FDF6202E96BC000E0F0D /* ChartsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17C5FDFC202EA2EA000E0F0D /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				17C5FDFD202EA2EA000E0F0D /* DAYCalendarView.h */,
+				17C5FDFE202EA2EA000E0F0D /* DAYCalendarView.m */,
+				17C5FDFF202EA2EA000E0F0D /* Daysquare.h */,
+				17C5FE00202EA2EA000E0F0D /* Info.plist */,
+				17C5FE01202EA2EA000E0F0D /* Internal */,
+				17C5FE0A202EA2EA000E0F0D /* Lib.h */,
+			);
+			name = Lib;
+			path = "../../../Downloads/Daysquare-master/Example/Lib";
+			sourceTree = "<group>";
+		};
+		17C5FE01202EA2EA000E0F0D /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				17C5FE02202EA2EA000E0F0D /* DAYComponentView.h */,
+				17C5FE03202EA2EA000E0F0D /* DAYComponentView.m */,
+				17C5FE04202EA2EA000E0F0D /* DAYIndicatorView.h */,
+				17C5FE05202EA2EA000E0F0D /* DAYIndicatorView.m */,
+				17C5FE06202EA2EA000E0F0D /* DAYNavigationBar.h */,
+				17C5FE07202EA2EA000E0F0D /* DAYNavigationBar.m */,
+				17C5FE08202EA2EA000E0F0D /* DAYUtils.h */,
+				17C5FE09202EA2EA000E0F0D /* DAYUtils.m */,
+			);
+			path = Internal;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,10 +199,12 @@
 				17C5FDD2202E969A000E0F0D /* Sources */,
 				17C5FDD3202E969A000E0F0D /* Frameworks */,
 				17C5FDD4202E969A000E0F0D /* Resources */,
+				17C5FDFB202E96C8000E0F0D /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				17C5FDFA202E96C8000E0F0D /* PBXTargetDependency */,
 			);
 			name = Weather;
 			productName = Weather;
@@ -114,6 +238,12 @@
 			mainGroup = 17C5FDCD202E9699000E0F0D;
 			productRefGroup = 17C5FDD7202E969A000E0F0D /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 17C5FDEF202E96BC000E0F0D /* Products */;
+					ProjectRef = 17C5FDEE202E96BC000E0F0D /* Charts.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				17C5FDD5202E969A000E0F0D /* Weather */,
@@ -121,11 +251,29 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		17C5FDF4202E96BC000E0F0D /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = 17C5FDF3202E96BC000E0F0D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		17C5FDF6202E96BC000E0F0D /* ChartsTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ChartsTests.xctest;
+			remoteRef = 17C5FDF5202E96BC000E0F0D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		17C5FDD4202E969A000E0F0D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17C5FE0C202EA2EA000E0F0D /* Info.plist in Resources */,
 				17C5FDE7202E969A000E0F0D /* LaunchScreen.storyboard in Resources */,
 				17C5FDE4202E969A000E0F0D /* Assets.xcassets in Resources */,
 				17C5FDDF202E969A000E0F0D /* Main.storyboard in Resources */,
@@ -139,13 +287,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1745DB58202FA5430027F5B4 /* CurrentlyWeather.swift in Sources */,
 				17C5FDE2202E969A000E0F0D /* Weather.xcdatamodeld in Sources */,
+				17C5FE0E202EA2EA000E0F0D /* DAYIndicatorView.m in Sources */,
+				17C5FE0F202EA2EA000E0F0D /* DAYNavigationBar.m in Sources */,
+				1745DB54202FA19D0027F5B4 /* MinutelyWeather.swift in Sources */,
 				17C5FDDC202E969A000E0F0D /* ViewController.swift in Sources */,
+				17C5FE10202EA2EA000E0F0D /* DAYUtils.m in Sources */,
+				170FA5AF202ED0EC00A35458 /* DateValueFormatter.swift in Sources */,
+				1745DB5A202FA95F0027F5B4 /* DailyWeather.swift in Sources */,
 				17C5FDDA202E969A000E0F0D /* AppDelegate.swift in Sources */,
+				1745DB5C202FD80B0027F5B4 /* HourlyWeatherWithDate.swift in Sources */,
+				17C5FE0B202EA2EA000E0F0D /* DAYCalendarView.m in Sources */,
+				1745DB56202FA5240027F5B4 /* HourlyWeather.swift in Sources */,
+				17C5FE0D202EA2EA000E0F0D /* DAYComponentView.m in Sources */,
+				1745DB52202F555B0027F5B4 /* historyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17C5FDFA202E96C8000E0F0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Charts;
+			targetProxy = 17C5FDF9202E96C8000E0F0D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		17C5FDDD202E969A000E0F0D /* Main.storyboard */ = {
@@ -277,6 +445,7 @@
 		17C5FDEC202E969A000E0F0D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J2A5PD76DX;
@@ -292,6 +461,7 @@
 		17C5FDED202E969A000E0F0D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J2A5PD76DX;
