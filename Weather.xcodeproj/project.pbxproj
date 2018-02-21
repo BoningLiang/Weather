@@ -14,8 +14,8 @@
 		1745DB58202FA5430027F5B4 /* CurrentlyWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1745DB57202FA5430027F5B4 /* CurrentlyWeather.swift */; };
 		1745DB5A202FA95F0027F5B4 /* DailyWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1745DB59202FA95F0027F5B4 /* DailyWeather.swift */; };
 		1745DB5C202FD80B0027F5B4 /* HourlyWeatherWithDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1745DB5B202FD80B0027F5B4 /* HourlyWeatherWithDate.swift */; };
-		177890ED203D2673003322EF /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 177890EA203D2668003322EF /* Charts.framework */; };
-		177890EE203D2673003322EF /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 177890EA203D2668003322EF /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		177890FA203D27E6003322EF /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 177890F7203D27DE003322EF /* Charts.framework */; };
+		177890FB203D27E6003322EF /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 177890F7203D27DE003322EF /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		17C5FDDA202E969A000E0F0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C5FDD9202E969A000E0F0D /* AppDelegate.swift */; };
 		17C5FDDC202E969A000E0F0D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C5FDDB202E969A000E0F0D /* ViewController.swift */; };
 		17C5FDDF202E969A000E0F0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17C5FDDD202E969A000E0F0D /* Main.storyboard */; };
@@ -25,23 +25,23 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		177890E9203D2668003322EF /* PBXContainerItemProxy */ = {
+		177890F6203D27DE003322EF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 177890E4203D2668003322EF /* Charts.xcodeproj */;
+			containerPortal = 177890F1203D27DE003322EF /* Charts.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 65AD9E95D9ED4DC0BD73A743;
 			remoteInfo = Charts;
 		};
-		177890EB203D2668003322EF /* PBXContainerItemProxy */ = {
+		177890F8203D27DE003322EF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 177890E4203D2668003322EF /* Charts.xcodeproj */;
+			containerPortal = 177890F1203D27DE003322EF /* Charts.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 1CBBC58C6CE1EBEE9852CE41;
 			remoteInfo = ChartsTests;
 		};
-		177890EF203D2673003322EF /* PBXContainerItemProxy */ = {
+		177890FC203D27E6003322EF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 177890E4203D2668003322EF /* Charts.xcodeproj */;
+			containerPortal = 177890F1203D27DE003322EF /* Charts.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = A58A4ED274A941CA248EA921;
 			remoteInfo = Charts;
@@ -55,7 +55,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				177890EE203D2673003322EF /* Charts.framework in Embed Frameworks */,
+				177890FB203D27E6003322EF /* Charts.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -70,7 +70,7 @@
 		1745DB57202FA5430027F5B4 /* CurrentlyWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentlyWeather.swift; sourceTree = "<group>"; };
 		1745DB59202FA95F0027F5B4 /* DailyWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyWeather.swift; sourceTree = "<group>"; };
 		1745DB5B202FD80B0027F5B4 /* HourlyWeatherWithDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourlyWeatherWithDate.swift; sourceTree = "<group>"; };
-		177890E4203D2668003322EF /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = "Charts-master/Charts.xcodeproj"; sourceTree = "<group>"; };
+		177890F1203D27DE003322EF /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = Charts/Charts.xcodeproj; sourceTree = "<group>"; };
 		17C5FDD6202E969A000E0F0D /* Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17C5FDD9202E969A000E0F0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17C5FDDB202E969A000E0F0D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -86,18 +86,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				177890ED203D2673003322EF /* Charts.framework in Frameworks */,
+				177890FA203D27E6003322EF /* Charts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		177890E5203D2668003322EF /* Products */ = {
+		177890F2203D27DE003322EF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				177890EA203D2668003322EF /* Charts.framework */,
-				177890EC203D2668003322EF /* ChartsTests.xctest */,
+				177890F7203D27DE003322EF /* Charts.framework */,
+				177890F9203D27DE003322EF /* ChartsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,7 +107,7 @@
 			children = (
 				17C5FDD8202E969A000E0F0D /* Weather */,
 				17C5FDD7202E969A000E0F0D /* Products */,
-				177890E4203D2668003322EF /* Charts.xcodeproj */,
+				177890F1203D27DE003322EF /* Charts.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -155,7 +155,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				177890F0203D2673003322EF /* PBXTargetDependency */,
+				177890FD203D27E6003322EF /* PBXTargetDependency */,
 			);
 			name = Weather;
 			productName = Weather;
@@ -191,8 +191,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 177890E5203D2668003322EF /* Products */;
-					ProjectRef = 177890E4203D2668003322EF /* Charts.xcodeproj */;
+					ProductGroup = 177890F2203D27DE003322EF /* Products */;
+					ProjectRef = 177890F1203D27DE003322EF /* Charts.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -203,18 +203,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		177890EA203D2668003322EF /* Charts.framework */ = {
+		177890F7203D27DE003322EF /* Charts.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = Charts.framework;
-			remoteRef = 177890E9203D2668003322EF /* PBXContainerItemProxy */;
+			remoteRef = 177890F6203D27DE003322EF /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		177890EC203D2668003322EF /* ChartsTests.xctest */ = {
+		177890F9203D27DE003322EF /* ChartsTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = ChartsTests.xctest;
-			remoteRef = 177890EB203D2668003322EF /* PBXContainerItemProxy */;
+			remoteRef = 177890F8203D27DE003322EF /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -253,10 +253,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		177890F0203D2673003322EF /* PBXTargetDependency */ = {
+		177890FD203D27E6003322EF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Charts;
-			targetProxy = 177890EF203D2673003322EF /* PBXContainerItemProxy */;
+			targetProxy = 177890FC203D27E6003322EF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
